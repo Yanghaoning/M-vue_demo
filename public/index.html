@@ -21,10 +21,6 @@
   if (!window.Promise) {
     document.writeln('<script src="https://as.alipayobjects.com/g/component/es6-promise/3.2.2/es6-promise.min.js"' + '>' + '<' + '/' + 'script>');
   }
-  //取消浏览器默认行为
-  document.body.addEventListener('touchmove', function (e) {
-    e.preventDefault();
-  }, {passive: false});
   //点透
   !(function () {
     let aNodes = document.querySelectorAll('a');
