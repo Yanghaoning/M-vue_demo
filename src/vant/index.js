@@ -1,5 +1,5 @@
 import Vue from 'vue'
-import {Toast, Tab, Tabs, Uploader, Icon, Field, Button, Popup, Col, Row, Dialog ,Search ,Overlay,ActionSheet,Tabbar, TabbarItem} from 'vant';
+import {Toast, Tab, Tabs, Uploader, Icon, Field, Button, Popup, Col, Row, Dialog ,Search ,Overlay,ActionSheet,Tabbar, TabbarItem, Progress} from 'vant';
 
 Vue.use(Toast);
 Vue.use(Tab);
@@ -17,3 +17,4 @@ Vue.use(Overlay);
 Vue.use(ActionSheet);
 Vue.use(Tabbar);
 Vue.use(TabbarItem);
+Vue.use(Progress);
