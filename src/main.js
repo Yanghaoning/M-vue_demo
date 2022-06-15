@@ -11,6 +11,8 @@ import http from './utils/request';
 import VideoPlayer from 'vue-video-player'
 import 'vue-video-player/src/custom-theme.css'
 import 'video.js/dist/video-js.css'
+import myToast from './components/myToast'
+Vue.use(myToast)
 
 Vue.use(VideoPlayer)
 //播放器相关

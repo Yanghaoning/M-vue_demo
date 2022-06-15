@@ -7,6 +7,7 @@ import Player from 'xgplayer';
 export default {
   name: "xgVideo",
   mounted() {
+    this.$myToast('123')
     this.$nextTick(() => {
       let player =  new Player({
         id: 'mse',
