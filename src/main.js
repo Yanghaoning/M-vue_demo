@@ -4,7 +4,7 @@ import router from './router'
 import store from './store'
 import './registerServiceWorker'
 import './assets/reset.css'
-import 'lib-flexible'
+import './utils/flexible'
 import './vant/index'
 import http from './utils/request';
 Vue.config.productionTip = false
